@@ -12,7 +12,8 @@ namespace IndustrialTool
             Console.WriteLine("Este es un esqueleto para utilidades internas de planta.\n");
 
             // TODO: sustituye por tu cadena de conexión real
-            var connectionString = "Server=TU_SERVIDOR;Database=Produccion;User Id=USUARIO;Password=PASSWORD;";
+            var connectionString = "Server=DAMONCAOS;Database=Produccion;Trusted_Connection=True;TrustServerCertificate=True;";
+
 
             try
             {
